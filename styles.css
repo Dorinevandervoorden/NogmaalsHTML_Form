@@ -1,0 +1,137 @@
+body{
+    font-family:'Montserrat', sans-serif
+}
+
+body{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(228, 228, 225);
+}
+header{
+    text-align:center;
+    background-color: rgb(34, 34, 34);
+    padding-top:5px;
+    padding-bottom:20px;
+    letter-spacing:0.1em;
+}
+
+.menu ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 5px; 
+    line-height: 1.2em;
+}
+
+.menu li{ 
+    display:inline-block
+}
+
+nav a{
+    padding: 20px;
+}
+
+main{
+    font-size: 14px;
+    color: rgb(88, 95, 102);
+    background-color: rgb(228, 228, 225);
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top:0px; 
+    padding-bottom:10px;
+    }
+
+.contact{
+    margin-top: 30px;
+}
+
+footer{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 50px;
+    padding-top:20px
+}
+
+.Foto_Mickey{
+    object-fit: cover;
+    margin:0, auto;
+}
+
+.LL{
+    margin: auto;
+    text-align:center;
+}
+
+a:hover{color: gold;}
+a{text-decoration: none;}
+a{color:rgb(128, 150, 33)}
+.menu a{color:white;}
+.Header-A{color:olive}
+.Header-B{color:olivedrab}
+.Header-B{font-family:'Montserrat-SemiBold', sans-serif;}
+.Header-C{color:olivedrab}
+.Header-C{font-family:'Montserrat', sans-serif;}
+.Header-C{font-size: 20px}
+.Header-C{font-variant:small-caps;}
+.BB{border: 5px solid black}
+.LL{font-style: italic;}
+.FF{font-size: 12px;}
+.FF{color:white;}
+.FF{letter-spacing:0.3em;}
+.Header-A{font-family: 'Montserrat-SemiBold', sans-serif;}
+
+@media screen and (min-width:320px){
+    header{
+        background-color: red;}
+    h1{font-size:30px;}
+    .Header-C{font-size:30px;}
+    p{
+        font-size:20px
+    }
+    .Query1{
+        line-height:1.5em;
+    }
+    .LL{
+        font-size:20px;
+    }
+}
+
+@media screen and (min-width:720px){
+    header{
+        background-color: blue;
+    }
+    h1{font-size:20px;}
+    .Header-C{font-size:25px;}
+    p{
+        font-size:18px;}
+    .Query1{
+        line-height:1.2em;
+    }
+    .LL{
+        font-size:18px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header{
+        background-color:rgb(55, 102, 51);
+    }
+    .Header-A{
+        color:white
+    }
+    h1{font-size:20px;}
+    .Header-C{font-size:25px;}
+    p{
+        font-size:15px;}
+    .Query1{
+        line-height:1.0em;
+    }
+    .LL{
+        font-size:15px;
+    }
+    main{
+        color:rgb(55, 102, 51);
+    }
+}
